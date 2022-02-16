@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "placeholder",
+  "version": "${version}",
+
+  "name": "Placeholder",
+  "description": "-",
+  "authors": [
+    "Wondering-Oracle"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/Wondering-Oracle/BeholderTech"
+  },
+
+  "license": "MIT",
+  "icon": "assets/placeholder/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.silicateseer.placeholder.Placeholder"
+    ]
+  },
+  "mixins": [
+    "placeholder.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
